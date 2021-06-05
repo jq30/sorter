@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>{htmltitle}</title>
+		<link href="directorystyling.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>{n} files found matching: {q}</h1>
+		<div class="row">
+
+			<div class="sep"></div>
+			<a href="{link}">
+				<p class="box">{preview}</p>
+				<p class="banner">{filename}</p>
+			</a>
+
+		</div>
+	</body>
+</html>

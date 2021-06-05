@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title></title>
+		<link href="directorystyling.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>{n} files found matching: {}</h1>
+		<div class="row">
+			<div class="sep"></div>
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+				<p class="box">Stuff goes here</p>
+				<p class="banner">Click here for rick roll</p>
+			</a>
+
+			<div class="sep"></div>
+			<a href="https://www.youtube.com/">
+				<p class="box">Other stuff goes here</p>
+				<p class="banner">Click here for no rick roll</p>
+			</a>
+
+			<div class="sep"></div>
+			<a href="https://www.youtube.com/">
+				<p class="box">...</p>
+				<p class="banner">Click here for no rick roll</p>
+			</a>
+
+			<div class="sep"></div>
+			<a href="https://www.youtube.com/">
+				<p class="box">Jugemu     "limitless life". Go kō no surikire     "five kō of rubbing off (the rock)". In Japanese Buddhism lore, a heavenly maiden would visit the human world once in every three thousand years, leaving friction marks on a huge rock with her dress. Eventually the rock would wear down to nothing in the span of one kō, or 4 billion (4×109) years. The priest blesses the child to live at least 20 billion (2×1010) years, essentially for eternity. Kaijari suigyo     "gravel in the sea and fish in water". The amount of gravel and number of fish in the world is meant to represent the degree of the child's luck and fortune. Suigyōmatsu     "where water eventually goes". Because water is free to go anywhere, the child is blessed with boundless well-being wherever he goes. Unraimatsu     "where clouds originally come". Because clouds come from anywhere, this is similar to the above. Fūraimatsu     "where wind originally comes". Similar to the above. Kuunerutokoro     "places to eat and sleep". It is fortunate to have both food and shelter. Sumutokoro     "places to live". Same as above. Yaburakōji-no burakōji     "marlberry/Ardisia japonica bushes in Yabura Trail". The plant's modern Japanese name is yabukōji, and it is considered to be imbued with energy year-round. "Yabura" has no inherent meaning but is inferred to be yabukōji with the pluralizing ra suffix. Paipo, Shūringan, Gūrindai, Ponpokopī, Ponpokonā     These are invented names of a kingdom and royal family in ancient China. Paipo was a rich and peaceful kingdom, where King Shūringan and his queen Gūrindai reigned. She gave birth to Princess Ponpokopī and Princess Ponpokonā, and all of them enjoyed longevity. Chōkyūmei     "long and lasting life". Chōsuke     "blessed for a long time".</p>
+				<p class="banner">Click here for no rick roll</p>
+			</a>
+
+		</div>
+	</body>
+</html>
