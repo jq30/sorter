@@ -52,8 +52,9 @@ a {
 .row {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 30px;
 }
 
-.sep {
+.separator {
 	width: 50px;
 }
