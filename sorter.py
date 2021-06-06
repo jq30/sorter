@@ -18,6 +18,7 @@ if not folder[len(folder) - 1] == '/':
 
 templatefile = ul.urlopen('https://jq30.github.io/sorter/template.html')
 template = str(templatefile.read())[2:]
+template = template.strip("'")
 template = template.replace('\\n', '\n')
 template = template.replace('\\t', '\t')
 
@@ -74,12 +75,19 @@ def oldmakehtml(r):
     html = f'<html>\n<head>\n</head>\n<body>\n{links}</body>\n</html>'
     return html
 
-def makehtml(r):
+def makeheader(r):
     html = ''
+    
     html += template[0]
-    html += template[1].replace('{n}', str(len(r)))
+    h1 = template[1]
+    h1 = h1.replace('{n}', str(len(r)))
+    html += h1
     html += template[2]
     
+    return html
+
+def makecards(r):
+    html = ''
     i = 0
     while i < len(r):
         if i % 5 == 0 and i != 0:
@@ -90,11 +98,30 @@ def makehtml(r):
         x = x.replace('{filename}', r[i])
         html += x
         i += 1
+    return html
+
+def makefooter(r):
+    html = ''
     html += template[4]
     html += template[5]
+    
+    return html
+
+def makehtml(r):
+    html = ''
+    
+    head = makeheader(r)
+    html += head
+    
+    cards = makecards(r)
+    html += cards
+    
+    foot = makefooter(r)
+    html += foot
     return html
 
 ####################
+
 
 results = search(le_dict)
 final = makehtml(results)
